@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://nhb8pfy52nny"]
+
+[ext_resource type="Texture2D" uid="uid://6i7bf4pwb0ib" path="res://enemyParticles.png" id="1_drk02"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_3yqyl"]
+particles_animation = true
+particles_anim_h_frames = 2
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[node name="DeathParticles" type="CPUParticles2D"]
+texture_filter = 1
+material = SubResource("CanvasItemMaterial_3yqyl")
+emitting = false
+amount = 27
+texture = ExtResource("1_drk02")
+lifetime = 0.3
+one_shot = true
+preprocess = 0.03
+explosiveness = 1.0
+randomness = 0.5
+lifetime_randomness = 0.8
+direction = Vector2(0, -1)
+spread = 180.0
+gravity = Vector2(0, 10)
+initial_velocity_min = 20.0
+initial_velocity_max = 65.0
+anim_offset_max = 1.0

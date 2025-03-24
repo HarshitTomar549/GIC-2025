@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bf6afkbnfbd2y"]
+
+[ext_resource type="Script" uid="uid://crc2wpm53uht" path="res://rock_spin_attack.gd" id="1_0txaq"]
+
+[node name="RockSpinAttack" type="Node2D"]
+script = ExtResource("1_0txaq")
