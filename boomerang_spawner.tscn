@@ -1,8 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bdq4qtvbwlb6s"]
-
-[ext_resource type="Script" uid="uid://ceesxpsr7id5o" path="res://boomerang_spawner.gd" id="1_40muf"]
-[ext_resource type="PackedScene" uid="uid://b6f7tbi3echor" path="res://boomerang.tscn" id="2_3ykf0"]
-
-[node name="BoomerangSpawner" type="Node2D"]
-script = ExtResource("1_40muf")
-boomerang_scene = ExtResource("2_3ykf0")

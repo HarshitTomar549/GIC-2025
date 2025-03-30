@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://6ijmfh1am40e"]
+
+[ext_resource type="Shader" uid="uid://b1t3cao4d4123" path="res://Scenes/hitFlash.gdshader" id="1_d1778"]
+
+[resource]
+shader = ExtResource("1_d1778")
+shader_parameter/flash_strength = 0.0

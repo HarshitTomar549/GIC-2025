@@ -1,7 +1,0 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://6ijmfh1am40e"]
-
-[ext_resource type="Shader" uid="uid://b1t3cao4d4123" path="res://hitFlash.gdshader" id="1_pssf3"]
-
-[resource]
-shader = ExtResource("1_pssf3")
-shader_parameter/flash_strength = 0.0
